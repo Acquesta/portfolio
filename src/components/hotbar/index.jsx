@@ -11,12 +11,11 @@ function Hotbar() {
         if(menu == '0'){
             setMenu('1')
             setHamburguer('fechar')
-        }else{
+        }
+        else{
             setMenu('0')
             setHamburguer('hamburguer')
         }
-        
-        
     }
 
     return ( 

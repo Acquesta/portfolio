@@ -3,10 +3,10 @@ import Hotbar from "./components/hotbar";
 
 function App() {
   return (
-    <>
+    <div className="bg-azulClaro">
       <Hotbar />
       <Outlet />      
-    </>
+    </div>
   );
 }
 

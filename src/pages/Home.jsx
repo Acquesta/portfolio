@@ -1,7 +1,9 @@
+import Apresentacao from "../components/apresentacao";
+
 function Home() {
     return ( 
         <>
-            <h1>PÁGINA HOME</h1>
+           <Apresentacao />
         </>
      );
 }
