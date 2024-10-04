@@ -29,7 +29,7 @@ function Experiencias() {
     return ( 
         <div className='pb-10'>
             <h2 className="font-bold text-xl text-brancoTexto text-center mb-4">Experiência</h2>
-            <div class=" max-w-md mx-auto shadow-md overflow-hidden md:max-w-2xl">
+            <div className=" max-w-md mx-auto overflow-hidden md:max-w-2xl">
                 {
                     cards.map(card => (
                         <Card card={card} />

@@ -3,7 +3,7 @@
 
 function Card({ card }) {
     return ( 
-        <div className="md:flex bg-azulClaro rounded-xl my-5">
+        <div className="md:flex bg-azulClaro rounded-xl my-5 shadow-md">
             <div className="md:shrink-0">
                 <img className="h-48 w-full object-cover md:h-full md:w-48" src={card.imagem} alt="Logo da fiap faculdade"/>
             </div>
