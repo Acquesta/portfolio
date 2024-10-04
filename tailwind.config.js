@@ -10,7 +10,8 @@ export default {
         'azulEscuro': '#171E45',
         'azulClaro': '#1A245A',
         'brancoTexto': '#E3E3E3',
-        'verdeContraste': '#07E7B1'
+        'verdeContraste': '#07E7B1',
+        'brancoDescricao': '#A8B4F2'
       }
     },
   },
