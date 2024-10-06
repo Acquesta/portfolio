@@ -3,7 +3,7 @@ import SectionSobre from "../components/sobre/Index";
 
 function Sobre() {
     return ( 
-        <div className="py-10 h-[90vh]">
+        <div className="py-10 ">
             <SectionSobre />
             <Projetos />
         </div>
