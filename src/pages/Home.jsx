@@ -1,13 +1,15 @@
-import Apresentacao from "../components/apresentacao";
-import Experiencias from "../components/experiencia";
-import Skills from "../components/skills";
+import CardHome from "../components/cardHome/CardHome";
+import Noticias from "../components/noticias";
+import SectionProjeto from "../components/sectionProjeto";
 
 function Home() {
     return ( 
         <>
-           <Apresentacao />
-           <Skills />
-           <Experiencias/>
+           <CardHome />
+           <div className="bg-azulMahindra h-1 my-14"></div>
+           <SectionProjeto />
+           <div className="bg-azulMahindra h-1 my-14"></div>
+           <Noticias />
         </>
      );
 }
