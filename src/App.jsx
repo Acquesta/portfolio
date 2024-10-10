@@ -1,16 +1,15 @@
-import { Outlet } from "react-router-dom"
-import Hotbar from "./components/Hotbar"
-import Footer from "./components/footer"
+import { Outlet } from "react-router-dom";
+import Hotbar from "./components/hotbar";
+import Footer from "./components/footer";
 
 function App() {
-
   return (
-    <>
+    <div className="bg-azulClaro">
       <Hotbar />
-      <Outlet context={'Batata'} />
+      <Outlet />      
       <Footer />
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
